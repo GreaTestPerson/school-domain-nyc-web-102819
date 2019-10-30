@@ -13,8 +13,8 @@ class School
   def initialize(name, grade)
     @name=name
     @grade = grade
-    if roster.include?(grade) == false
-      roster=[ ]
+    if @roster.include?(grade) == false
+      @roster(grade)=[]
       
   
 end
