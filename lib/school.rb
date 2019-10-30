@@ -13,7 +13,7 @@ class School
   def initialize(name, grade)
     @name=name
     @grade = grade
-    if roster.include?== FALSE
+    if roster.include?(grade) == FALSE
       
   
 end
