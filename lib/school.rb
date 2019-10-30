@@ -10,6 +10,11 @@ class School
    @roster
   end
   
+  def initialize(name, grade)
+    @name=name
+    @grade = grade
+    
+  
 end
 
 
