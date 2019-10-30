@@ -1,7 +1,12 @@
 # code here!
 
 class School
- school=school.new
+ def initialize(school_name)
+  @name=name
+  @roster={}
+  end
+  
+  def 
 end
 
 
