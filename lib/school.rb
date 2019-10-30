@@ -16,7 +16,7 @@ class School
     if @roster.include?(grade) == false
       @roster[grade]=[]
     end
-    @roster[grade].push(name)
+    @roster[grade]<<(name)
   end
 end
 
